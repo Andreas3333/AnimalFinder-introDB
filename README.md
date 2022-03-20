@@ -1,4 +1,4 @@
-# AnimalFinder-introDB
+# AnimalFinder
 The Animal Finder web page is a project developed by three 
 Kent State Students Kayla Carter, Sarah Reen, and Andreas Schaler as 
 Introductory Dtat Base Class colabrative project.
