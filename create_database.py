@@ -48,7 +48,7 @@ TABLES['animals']= (
 	"  `breed` VARCHAR(32) NOT NULL,"
   "  `age` enum('young','adult', 'senior')," 
 	"  `weight` Varchar(10) NOT NULL,"
-	"  `sex` VARCHAR(10) NULL,"
+	"  `sex` enum('male','female'),"
 	"  `spayed_or_neutured` enum ('yes', 'no'),"
 	"  `color` VARCHAR(30) NOT NULL,"
 	"  `vaccination` enum('yes','no', 'unknown'),"
@@ -96,7 +96,7 @@ TABLES['match_questions'] = (
   "  `match_id` int(60) NOT NULL AUTO_INCREMENT," 
   "  `What species?` enum('dog','cat') NOT NULL, " 
   "  `What age?` enum('young','adult', 'senior')," 
-  "  `Is the animal declawed?` enum('yes','no'),"
+  "  `Is the animal declawed?` enum('yes','no','na'),"
   "  PRIMARY KEY (`match_id`)"
   ") ENGINE=InnoDB"
 )
