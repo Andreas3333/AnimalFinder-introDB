@@ -1,8 +1,8 @@
 <?php
 
 // Grab User submitted information
-$ = $_POST["user"];
-$ = $_POST["pass"];
+$animaltype = $_POST["animaltype"];
+$age = $_POST["age"];
 
 // Create connection #servername, username, password, db 
 $conn = mysqli_connect("localhost", "root@localhost", "","AnimalPicker");
@@ -12,7 +12,7 @@ if (!$conn) {
 }
 
 // database insert SQL code
-$sql = "INSERT INTO `` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
+$sql = "INSERT INTO `animals` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtPhone', '$txtMessage')";
 
 
 ?>
