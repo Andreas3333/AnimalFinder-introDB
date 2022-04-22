@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this page is used for inserting, updating, deleting
+        to data base-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animal Finder- Insert an Animal</title>
+  </head>
+  <body>
+    <h4>Insert A New Animal</h5>
+      <fieldset>
+      <legend>Animal Finder</legend>
+      <form method="get" action="insertDB.php">
+      <p>
+      <label>Select Animal Type </label>
+      <p></p>
+      <select name="animaltype">
+        <option value="Dog" selected>Dog </option>
+        <option value="Cat">Cat </option> </select> <br>
+      </p>
+      <p>
+      <label for="">Age</label>
+      <input type="text" id="age">
+      </p>
+      <p>
+      <label for="phone">Male or Female</label>
+      <input type="text"  id="sex">
+      </p>
+      
+      <p>&nbsp;</p>
+      <p>
+      <input type="submit" name="Submit" id="Submit" value="Submit">
+      </p>
+      </form>
+      </fieldset>
+    </body>
+</html>
