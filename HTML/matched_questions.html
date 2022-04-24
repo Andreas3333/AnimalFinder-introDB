@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this page is used for inserting data in the matched_questions table-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animal Finder- Questionnaire</title>
+  </head>
+  <body>
+    <h4>Questionnaire </h5>
+      <fieldset>
+      <legend>Animal Finder</legend>
+      <form method="post" action="matched_questions.php">
+      <p>
+      <label>Insert info </label>
+
+      <p>
+      <label for="match_id">Match ID</label>
+      <input type="number" name="match_id" id="match_id" value="">
+      </p>
+      <p>
+      <label for="species">Species</label>
+      <input type="text"  name="species" id="species" value="">
+      </p>
+      <p>
+      <label for="age">Age</label>
+      <input type="text"  name="age" id="age" value="">
+      </p>
+      <p>
+      <label for="declawed">Is the animal declawed?</label>
+      <input type="text"  name="declawed" id="declawed" value="">
+      </p>
+     
+      <p>&nbsp;</p>
+      <p>
+      <input type="submit" name="Submit" id="Submit" value="Submit">
+      </p>
+      </form>
+      </fieldset>
+    </body>
+</html>
